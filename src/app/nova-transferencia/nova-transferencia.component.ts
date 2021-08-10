@@ -8,7 +8,7 @@ import { Component, Output } from "@angular/core";
 })
 
 export class NovaTransferenciaComponent {
-
+  // Output - Exibindo dados do componente
   @Output() aoTransferir = new EventEmitter<any>();
 
   valor = 0.00;
